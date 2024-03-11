@@ -1,12 +1,15 @@
 {
-  "name": "back",
+  "name": "@fastbun-starter/back",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "dev": "bun run --watch src/index.ts",
+    "test": "bun test",
+    "lint": "tsc --noEmit && eslint src"
   },
   "dependencies": {
-    "elysia": "latest"
+    "elysia": "latest",
+    "eslint-config-custom": "*",
+    "@fastbun-starter/typescript-config": "*"
   },
   "devDependencies": {
     "bun-types": "latest"

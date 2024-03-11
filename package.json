@@ -5,18 +5,17 @@
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
+    "test": "turbo test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "@fastbun-starter/eslint-config": "*",
-    "@fastbun-starter/typescript-config": "*",
-    "prettier": "^3.1.1",
-    "turbo": "latest"
+    "turbo": "latest",
+    "typescript": "5.3.3"
   },
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "bun@1.0.21",
+  "packageManager": "bun@1.0.30",
   "workspaces": [
     "apps/*",
     "packages/*"
