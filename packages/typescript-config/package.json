@@ -6,9 +6,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "devDependencies": {
-    "bun-types": "latest"
-  },
   "files": [
     "base.json"
   ]

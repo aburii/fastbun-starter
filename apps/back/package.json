@@ -8,11 +8,8 @@
   },
   "dependencies": {
     "elysia": "latest",
-    "eslint-config-custom": "*",
-    "@fastbun-starter/typescript-config": "*"
+    "eslint-config-custom": "workspace:*",
+    "@fastbun-starter/typescript-config": "workspace:*"
   },
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "module": "src/index.js"
+  "module": "src/index.ts"
 }
