@@ -8,6 +8,10 @@ ___
 
 ### Getting started
 
+`./rename.sh <my-project-name>` to replace all occurences of `fastbun-starter` in project. Run this any time you want, it auto-replaces itself.
+
+then
+
 `bun install`
 
 then
